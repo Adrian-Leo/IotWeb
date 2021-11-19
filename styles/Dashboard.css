@@ -1,0 +1,228 @@
+html{
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: linear-gradient(180deg, #14F3B0 -6.97%, rgba(89, 180, 186, 0) 107.75%);
+    background-repeat:no-repeat;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+/* bagian navbar */
+nav{
+    height: 100%;
+    width: 330px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+nav .logo{
+    margin-left: 24px;
+    color: black;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo > h2{
+    margin-left: 8px;
+}
+
+.huruf-kedua{
+    color: #0BC4D0;
+}
+
+
+nav .isi{
+    margin-top: 36px;
+    height: auto;
+}
+
+.isi > div:not(:first-child){
+    margin-top: 18px;
+}
+
+.isi > div:first-child{
+    background-color: rgb(72, 227, 209,0.6);
+}
+
+.isi .isi-child{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.isi .isi-child:hover{
+    background-color: rgb(72, 227, 209,0.6);
+}
+
+.isi-child > img{
+    margin-left: 24px;
+    margin-right: 36px;
+}
+
+nav .logout{
+    height: 65px;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logout:hover{
+    background-color: rgb(72, 227, 209,0.6);
+}
+
+.logout > img{
+    margin-left: 24px;
+    margin-right: 36px;
+}
+
+
+/* bagian navbar */
+
+/* bagian profil */
+
+.profile{
+    margin-left: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.profile > span{
+    color: rgba(89, 89, 89, 0.97);
+}
+
+.profile > img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 16px;
+    margin-right: 54px;
+}
+
+/* bagian profil */
+
+/* bagian main table */
+.main{
+    margin-top: 86px;
+    width: 1080px;
+    height: 400px;
+    margin-left: 370px;
+    background-color: white;
+}
+
+
+.main > h2{
+    text-align: center;
+    padding-top:24px;
+}
+
+/* .main-judul{
+    background-color: #EAEAEA;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.main-judul > span{
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 20px;
+}
+
+
+.main-button{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+form > button:first-child{
+    margin-left: 12px;
+    padding: 8px 10px;
+    background-color: #0AC127;
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+form > button:first-child:hover{
+    border: 2px solid #0AC127;
+    background-color: white;
+    color: black;
+}
+
+form > button:nth-child(2){
+    margin-left: 12px;
+    padding: 8px 10px;
+    background-color: #20CFC5;
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+form > button:nth-child(2):hover{
+    border: 2px solid #20CFC5;
+    background-color: white;
+    color: black;
+}
+
+
+.main-isi{
+    height: 178px;
+}
+
+table{
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+td,th{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+td{
+    text-align: center;
+} */
+
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+}
+
+
+.card-header{
+    background-color: gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* bagian main table */
